@@ -1,0 +1,139 @@
+@media screen and (max-width: 900px) {
+  #main-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #main-content main {
+    padding-right: 10%;
+  }
+
+  aside {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  div section:last-child ul {
+    gap: 1rem!important;
+  }
+}
+
+@media screen and (max-width: 900px) and (orientation: landscape) {
+  #showcase div {
+    top: 40%;
+    gap: 0;
+  }
+
+  #showcase div a{
+    width: 60%;
+  }
+
+  #showcase div h1 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  #showcase > div a {
+    max-width: 100%;
+  }
+
+  div section:last-child ul {
+    gap: 1rem!important;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .main-nav ul:nth-last-child(3) {
+    display: none;
+  }
+
+
+.main-nav {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .main-nav .logo{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+
+  }
+.main-nav .logo a{
+    font-size: 16px;
+}
+ 
+  .main-nav .fa-bars,
+  .main-nav .fa-user {
+    color: #017435;
+    display: block;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  }
+
+  #showcase > div {
+    max-width: 100%;
+  }
+
+  footer div section {
+    flex-grow: 1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .top-nav {
+    display: none;
+  }
+
+  #showcase {
+    background-position: center left -600px;
+  }
+
+  #showcase div {
+    top: 40%;
+  }
+
+  #showcase div h1 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  #showcase > div a {
+    max-width: 100%;
+  }
+
+  .gallery figure {
+    flex-basis: 100%;
+  }
+
+  footer>div {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  footer div section:last-child ul{
+    flex-direction: column;
+    justify-content: center;
+   
+  }
+
+
+  footer div section:last-child {
+    align-self:initial;
+  
+     
+   
+  }
+  
+
+
+  .fixed-buttons {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: -5px 3px 5px 5px rgba(0, 0, 0, 0.2);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  }
+}
